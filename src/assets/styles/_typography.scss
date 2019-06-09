@@ -1,0 +1,64 @@
+//  Linking Fonts
+
+// font-family: 'Roboto';
+@font-face {
+  font-family: 'Roboto';
+  font-weight: normal;
+  src:  local('Roboto'), local('Roboto-Regular');
+  src:  url('../fonts/Roboto/Roboto-regular/Roboto-Regular.eot');
+  src:  url('../fonts/Roboto/Roboto-regular/Roboto-Regular.eot?#iefix') format('embedded-opentype'),
+        //url('../fonts/Roboto-Regular.woff2') format('woff2'),
+        url('../fonts/Roboto/Roboto-regular/Roboto-Regular.woff') format('woff'),
+        url('../fonts/Roboto/Roboto-regular/Roboto-Regular.ttf') format('truetype'),
+        url('../fonts/Roboto/Roboto-regular/Roboto-Regular.svg#Roboto-Regular') format('svg');
+}
+
+// font-family: 'Roboto';
+// font-weight: 700;
+@font-face {
+  font-family: 'Roboto';
+  font-weight: 700;
+  src:  local('Roboto'), local('Roboto-Bold');
+  src:  url('../fonts/Roboto/Roboto-bold/Roboto-Bold.eot');
+  src:  url('../fonts/Roboto/Roboto-bold/Roboto-Bold.eot?#iefix') format('embedded-opentype'),
+        //url('../fonts/Roboto-Bold.woff2') format('woff2'),
+        url('../fonts/Roboto/Roboto-bold/Roboto-Bold.woff') format('woff'),
+        url('../fonts/Roboto/Roboto-bold/Roboto-Bold.ttf') format('truetype'),
+        url('../fonts/Roboto/Roboto-bold/Roboto-Bold.svg#Roboto-Bold') format('svg');
+}
+
+// Titles
+
+h1, h2, h3, h4, h5 {
+  font-family: $font-family;
+}
+
+h1 {
+  font-size: 42px;
+}
+
+h2 {
+	font-size: 36px;
+}
+
+h3 {
+	font-size: 28px;
+}
+
+h4 {
+  font-size: 18px;
+}
+
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 14px;
+}
+
+
+// Paragraph
+
+p {
+  font-size: 18px;
+}
