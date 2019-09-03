@@ -1,15 +1,16 @@
-//  Import files
+$white: #fff;
+$black: #000;
 
-@import 'variables';
-@import 'functions';
-@import 'mixins';
-@import 'base';
-@import 'typography';
+body {
+    color: $white;
+    text-transform: uppercase;
+    font-family: 'Helvetica';
+	background-color: $black;
+}
 
-@import 'elements/form-elements';
-@import 'elements/buttons';
-
-@import 'block/header';
-@import 'block/footer';
-
-@import 'pages/home';
+.logo {
+	height: 200px;
+    background: url(../images/webpack.png) no-repeat;
+	background-position: center;
+	background-size: contain;
+}
